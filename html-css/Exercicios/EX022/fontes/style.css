@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body{
+    height: 96vh;
+    position: relative;
+    background: black url('../meusteste/87ea54d7bf2fe640dc34db35c82cacad.gif') center center no-repeat fixed;
+    background-size: cover;
+}
+main{
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    width: 90%;
+    height: 90%;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+main p{
+    text-align: justify;
+    text-indent: 5px;
+}
